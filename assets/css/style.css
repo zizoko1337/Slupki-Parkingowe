@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background: #0c0b09;
+  background: black;
   color: #fff;
 }
 
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #1a1814;
+  background: black;
 }
 
 #preloader:before {
@@ -48,8 +48,8 @@ h1, h2, h3, h4, h5, h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #1a1814;
-  border-top-color: #cda45e;
-  border-bottom-color: #cda45e;
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -399,14 +399,14 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/gallery/tabliczka.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 0;
 }
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.099);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -586,7 +586,7 @@ section {
 }
 
 .section-bg {
-  background-color: #1a1814;
+  background-color: #ffffff;
 }
 
 .section-title {
@@ -625,7 +625,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #1d1b16;
+  background: #5900ff;
   margin-top: 110px;
 }
 @media (max-width: 992px) {
@@ -670,14 +670,15 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center;
+  background: white;
   background-size: cover;
   position: relative;
   padding: 80px 0;
+  color: black;
 }
 .about:before {
   content: "";
-  background: rgba(0, 0, 0, 0.8);
+  background: white;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -760,7 +761,7 @@ section {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
-  background: #1a1814;
+  background: #ffffff;
 }
 .why-us .box span {
   display: block;
@@ -1389,9 +1390,9 @@ section {
   font-size: 14px;
 }
 #footer .footer-top {
-  background: #0c0b09;
-  border-top: 1px solid #37332a;
-  border-bottom: 1px solid #28251f;
+  background: #1500ff;
+  border-top: 1px solid #ff0000;
+  border-bottom: 1px solid #00d0ff;
   padding: 60px 0 30px 0;
 }
 #footer .footer-top .footer-info {
