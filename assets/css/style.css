@@ -278,7 +278,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #3193e9e;
+  color: #3193e9;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -691,7 +691,7 @@ section {
 }
 .about .about-img img {
   max-width: 100%;
-  border: 4px solid rgba(255, 255, 255, 0.2);
+  border: 4px solid #3193e9a7;
   position: relative;
 }
 .about .about-img::before {
