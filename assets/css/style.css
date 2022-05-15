@@ -931,7 +931,7 @@ section {
 # Events
 --------------------------------------------------------------*/
 .events {
-  background: url(../img/events-bg.jpg) center center no-repeat;
+  background: url(../img/gallery/tablice-na-parking.JPG) center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1061,7 +1061,7 @@ section {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  background: #0c0b09;
+  background: #000000;
   border-color: #625b4b;
   color: white;
 }
