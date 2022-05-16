@@ -937,7 +937,7 @@ section {
 }
 .events::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: 0;
   right: 0;
@@ -1163,6 +1163,9 @@ section {
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
+#gallery {
+  background-color: white;
+}
 .gallery .gallery-item {
   overflow: hidden;
   border-right: 3px solid #454035;
