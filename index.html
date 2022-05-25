@@ -1,376 +1,575 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Słupki test</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Słupki test</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+     <!-- Skrypt do formularza -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+	  <script src="assets/js/index.js"></script>
 
-  <!-- =======================================================
+
+
+    <!-- =======================================================
   * Template Name: Restaurantly - v3.7.0
   * Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body>
-
-  <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="d-flex align-items-center fixed-top">
-    <div class="container d-flex justify-content-center justify-content-md-between">
-
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-phone d-flex align-items-center"><span>+1 5589 55488 55</span></i>
-        <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Sat: 11AM - 23PM</span></i>
+  <body>
+    <!-- ======= Top Bar ======= -->
+    <div id="topbar" class="d-flex align-items-center fixed-top">
+      <div
+        class="container d-flex justify-content-center justify-content-md-between"
+      >
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-phone d-flex align-items-center"
+            ><span>+1 5589 55488 55</span></i
+          >
+          <i class="bi bi-clock d-flex align-items-center ms-4"
+            ><span> Mon-Sat: 11AM - 23PM</span></i
+          >
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-cente">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-cente">
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-lg-between"
+      >
+        <h1 class="logo me-auto me-lg-0">
+          <a href="index.html">OZNACZENIA PARKINGOWE</a>
+        </h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">OZNACZENIA PARKINGOWE</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Start</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#specials">Specials</a></li>
-          <li><a class="nav-link scrollto" href="#events">Events</a></li>
-          <li><a class="nav-link scrollto" href="#chefs">Chefs</a></li>
-          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-      <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">Złóż zamówienie</a>
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
-      <div class="row">
-        <div class="col-lg-8">
-          <h1>Oznaczenia parkingów <span>Alusign</span></h1>
-          <h2>Indywidualne słupki, pylony oraz tablice dla twojej firmy!</h2>
-
-          <div class="btns">
-            <a href="#menu" class="btn-menu animated fadeInUp scrollto">Nasze produkty</a>
-            <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Złóż zamówienie</a>
-          </div>
-        </div>
-        <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
-          <a href="https://www.youtube.com/watch?v=3h1l8nQpocU" class="glightbox play-btn"></a>
-        </div>
-
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Start</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <li><a class="nav-link scrollto" href="#specials">Specials</a></li>
+            <li><a class="nav-link scrollto" href="#events">Events</a></li>
+            <li><a class="nav-link scrollto" href="#chefs">Chefs</a></li>
+            <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+        <a
+          href="#book-a-table"
+          class="book-a-table-btn scrollto d-none d-lg-flex"
+          >Złóż zamówienie</a
+        >
       </div>
-    </div>
-  </section><!-- End Hero -->
+    </header>
+    <!-- End Header -->
 
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+      <div
+        class="container position-relative text-center text-lg-start"
+        data-aos="zoom-in"
+        data-aos-delay="100"
+      >
         <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
-            <div class="about-img">
-              <img src="assets/img/gallery/tabliczka-parkingowa.JPG" alt="">
+          <div class="col-lg-8">
+            <h1>Oznaczenia parkingów <span>Alusign</span></h1>
+            <h2>Indywidualne słupki, pylony oraz tablice dla twojej firmy!</h2>
+
+            <div class="btns">
+              <a href="#menu" class="btn-menu animated fadeInUp scrollto"
+                >Nasze produkty</a
+              >
+              <a
+                href="#book-a-table"
+                class="btn-book animated fadeInUp scrollto"
+                >Złóż zamówienie</a
+              >
             </div>
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-            </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
+          <div
+            class="col-lg-4 d-flex align-items-center justify-content-center position-relative"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
+            <a
+              href="https://www.youtube.com/watch?v=3h1l8nQpocU"
+              class="glightbox play-btn"
+            ></a>
           </div>
         </div>
-
       </div>
-    </section><!-- End About Section -->
+    </section>
+    <!-- End Hero -->
 
-    <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Najwyższa jakość</h2>
-          <p>Oznaczenia parkingowe które przetrwają lata</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4">
-            <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <span>01</span>
-              <h4>Lorem Ipsum</h4>
-              <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div
+              class="col-lg-6 order-1 order-lg-2"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="about-img">
+                <img src="assets/img/gallery/tabliczka-parkingowa.JPG" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+              <h3>
+                Voluptatem dignissimos provident quasi corporis voluptates sit
+                assumenda.
+              </h3>
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-check-circle"></i> Ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat.
+                </li>
+                <li>
+                  <i class="bi bi-check-circle"></i> Duis aute irure dolor in
+                  reprehenderit in voluptate velit.
+                </li>
+                <li>
+                  <i class="bi bi-check-circle"></i> Ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in
+                  reprehenderit in voluptate trideta storacalaperda mastiro
+                  dolore eu fugiat nulla pariatur.
+                </li>
+              </ul>
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum
+              </p>
             </div>
           </div>
+        </div>
+      </section>
+      <!-- End About Section -->
 
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="200">
-              <span>02</span>
-              <h4>Repellat Nihil</h4>
-              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+      <!-- ======= Why Us Section ======= -->
+      <section id="why-us" class="why-us">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Najwyższa jakość</h2>
+            <p>Oznaczenia parkingowe które przetrwają lata</p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="box" data-aos="zoom-in" data-aos-delay="100">
+                <span>01</span>
+                <h4>Lorem Ipsum</h4>
+                <p>
+                  Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et
+                  consectetur ducimus vero placeat
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="300">
-              <span>03</span>
-              <h4> Ad ad velit qui</h4>
-              <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+            <div class="col-lg-4 mt-4 mt-lg-0">
+              <div class="box" data-aos="zoom-in" data-aos-delay="200">
+                <span>02</span>
+                <h4>Repellat Nihil</h4>
+                <p>
+                  Dolorem est fugiat occaecati voluptate velit esse. Dicta
+                  veritatis dolor quod et vel dire leno para dest
+                </p>
+              </div>
             </div>
-          </div>
 
-        </div>
-
-      </div>
-    </section><!-- End Why Us Section -->
-
-    <!-- ======= Events Section ======= -->
-    <section id="events" class="events">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Inne oznaczenia parkingowe</h2>
-          <p>Oznacz parking przy pomocy odpowiednich tablic oraz słupków</p>
-        </div>
-
-        <div class="events-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="row event-item">
-                <div class="col-lg-6">
-                  <img src="assets/img/gallery/pylon-parkingowy.JPG" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Birthday Parties</h3>
-                  <div class="price">
-                    <p><span>$189</span></p>
-                  </div>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  </ul>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="row event-item">
-                <div class="col-lg-6">
-                  <img src="assets/img/gallery/słupek-parkingowy-z-numerkiem.JPG" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Private Parties</h3>
-                  <div class="price">
-                    <p><span>$290</span></p>
-                  </div>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  </ul>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="row event-item">
-                <div class="col-lg-6">
-                  <img src="assets/img/gallery/tablice-medyczne.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Custom Parties</h3>
-                  <div class="price">
-                    <p><span>$99</span></p>
-                  </div>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  </ul>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Events Section -->
-
-    <!-- ======= Specials Section ======= -->
-    <section id="specials" class="specials">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Proponowane warianty słupków</h2>
-          <p>Oznakuj parking według własnego pomysłu</p>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-3">
-            <ul class="nav nav-tabs flex-column">
-              <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Modi sit est</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Unde praesentium sed</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Pariatur explicabo vel</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Nostrum qui quasi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Iusto ut expedita aut</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-9 mt-4 mt-lg-0">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Architecto ut aperiam autem id</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/słupek-numer.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-2">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Et blanditiis nemo veritatis excepturi</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/słupek-numer-napis.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-3">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
-                    <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
-                    <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/słupek-tabliczka-wymienna2.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-4">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
-                    <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
-                    <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/słupek-tabliczka-wymienna.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-5">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
-                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/słupek-grafika.png" alt="" class="img-fluid">
-                  </div>
-                </div>
+            <div class="col-lg-4 mt-4 mt-lg-0">
+              <div class="box" data-aos="zoom-in" data-aos-delay="300">
+                <span>03</span>
+                <h4>Ad ad velit qui</h4>
+                <p>
+                  Molestiae officiis omnis illo asperiores. Aut doloribus vitae
+                  sunt debitis quo vel nam quis
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </section>
+      <!-- End Why Us Section -->
 
-      </div>
-    </section><!-- End Specials Section -->
+      <!-- ======= Events Section ======= -->
+      <section id="events" class="events">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Inne oznaczenia parkingowe</h2>
+            <p>Oznacz parking przy pomocy odpowiednich tablic oraz słupków</p>
+          </div>
 
-    
+          <div
+            class="events-slider swiper"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="row event-item">
+                  <div class="col-lg-6">
+                    <img
+                      src="assets/img/gallery/pylon-parkingowy.JPG"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-6 pt-4 pt-lg-0 content">
+                    <h3>Birthday Parties</h3>
+                    <div class="price">
+                      <p><span>$189</span></p>
+                    </div>
+                    <p class="fst-italic">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                    <ul>
+                      <li>
+                        <i class="bi bi-check-circled"></i> Ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat.
+                      </li>
+                      <li>
+                        <i class="bi bi-check-circled"></i> Duis aute irure
+                        dolor in reprehenderit in voluptate velit.
+                      </li>
+                      <li>
+                        <i class="bi bi-check-circled"></i> Ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat.
+                      </li>
+                    </ul>
+                    <p>
+                      Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
 
-    <!-- ======= Book A Table Section ======= -->
-    <!-- <section id="book-a-table" class="book-a-table section-bg">
+              <div class="swiper-slide">
+                <div class="row event-item">
+                  <div class="col-lg-6">
+                    <img
+                      src="assets/img/gallery/słupek-parkingowy-z-numerkiem.JPG"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-6 pt-4 pt-lg-0 content">
+                    <h3>Private Parties</h3>
+                    <div class="price">
+                      <p><span>$290</span></p>
+                    </div>
+                    <p class="fst-italic">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                    <ul>
+                      <li>
+                        <i class="bi bi-check-circled"></i> Ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat.
+                      </li>
+                      <li>
+                        <i class="bi bi-check-circled"></i> Duis aute irure
+                        dolor in reprehenderit in voluptate velit.
+                      </li>
+                      <li>
+                        <i class="bi bi-check-circled"></i> Ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat.
+                      </li>
+                    </ul>
+                    <p>
+                      Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="row event-item">
+                  <div class="col-lg-6">
+                    <img
+                      src="assets/img/gallery/tablice-medyczne.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-6 pt-4 pt-lg-0 content">
+                    <h3>Custom Parties</h3>
+                    <div class="price">
+                      <p><span>$99</span></p>
+                    </div>
+                    <p class="fst-italic">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                    <ul>
+                      <li>
+                        <i class="bi bi-check-circled"></i> Ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat.
+                      </li>
+                      <li>
+                        <i class="bi bi-check-circled"></i> Duis aute irure
+                        dolor in reprehenderit in voluptate velit.
+                      </li>
+                      <li>
+                        <i class="bi bi-check-circled"></i> Ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat.
+                      </li>
+                    </ul>
+                    <p>
+                      Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Events Section -->
+
+      <!-- ======= Specials Section ======= -->
+      <section id="specials" class="specials">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Proponowane warianty słupków</h2>
+            <p>Oznakuj parking według własnego pomysłu</p>
+          </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-3">
+              <ul class="nav nav-tabs flex-column">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active show"
+                    data-bs-toggle="tab"
+                    href="#tab-1"
+                    >Modi sit est</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-2"
+                    >Unde praesentium sed</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-3"
+                    >Pariatur explicabo vel</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-4"
+                    >Nostrum qui quasi</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#tab-5"
+                    >Iusto ut expedita aut</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-9 mt-4 mt-lg-0">
+              <div class="tab-content">
+                <div class="tab-pane active show" id="tab-1">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Architecto ut aperiam autem id</h3>
+                      <p class="fst-italic">
+                        Qui laudantium consequatur laborum sit qui ad sapiente
+                        dila parde sonata raqer a videna mareta paulona marka
+                      </p>
+                      <p>
+                        Et nobis maiores eius. Voluptatibus ut enim blanditiis
+                        atque harum sint. Laborum eos ipsum ipsa odit magni.
+                        Incidunt hic ut molestiae aut qui. Est repellat minima
+                        eveniet eius et quis magni nihil. Consequatur dolorem
+                        quaerat quos qui similique accusamus nostrum rem vero
+                      </p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img
+                        src="assets/img/słupek-numer.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-2">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Et blanditiis nemo veritatis excepturi</h3>
+                      <p class="fst-italic">
+                        Qui laudantium consequatur laborum sit qui ad sapiente
+                        dila parde sonata raqer a videna mareta paulona marka
+                      </p>
+                      <p>
+                        Ea ipsum voluptatem consequatur quis est. Illum error
+                        ullam omnis quia et reiciendis sunt sunt est. Non
+                        aliquid repellendus itaque accusamus eius et velit ipsa
+                        voluptates. Optio nesciunt eaque beatae accusamus lerode
+                        pakto madirna desera vafle de nideran pal
+                      </p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img
+                        src="assets/img/słupek-numer-napis.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-3">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
+                      <p class="fst-italic">
+                        Eos voluptatibus quo. Odio similique illum id quidem non
+                        enim fuga. Qui natus non sunt dicta dolor et. In
+                        asperiores velit quaerat perferendis aut
+                      </p>
+                      <p>
+                        Iure officiis odit rerum. Harum sequi eum illum corrupti
+                        culpa veritatis quisquam. Neque necessitatibus illo
+                        rerum eum ut. Commodi ipsam minima molestiae sed
+                        laboriosam a iste odio. Earum odit nesciunt fugiat sit
+                        ullam. Soluta et harum voluptatem optio quae
+                      </p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img
+                        src="assets/img/słupek-tabliczka-wymienna2.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-4">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>
+                        Fuga dolores inventore laboriosam ut est accusamus
+                        laboriosam dolore
+                      </h3>
+                      <p class="fst-italic">
+                        Totam aperiam accusamus. Repellat consequuntur iure
+                        voluptas iure porro quis delectus
+                      </p>
+                      <p>
+                        Eaque consequuntur consequuntur libero expedita in
+                        voluptas. Nostrum ipsam necessitatibus aliquam fugiat
+                        debitis quis velit. Eum ex maxime error in consequatur
+                        corporis atque. Eligendi asperiores sed qui veritatis
+                        aperiam quia a laborum inventore
+                      </p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img
+                        src="assets/img/słupek-tabliczka-wymienna.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab-5">
+                  <div class="row">
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                      <h3>
+                        Est eveniet ipsam sindera pad rone matrelat sando reda
+                      </h3>
+                      <p class="fst-italic">
+                        Omnis blanditiis saepe eos autem qui sunt debitis porro
+                        quia.
+                      </p>
+                      <p>
+                        Exercitationem nostrum omnis. Ut reiciendis repudiandae
+                        minus. Omnis recusandae ut non quam ut quod eius qui.
+                        Ipsum quia odit vero atque qui quibusdam amet. Occaecati
+                        sed est sint aut vitae molestiae voluptate vel
+                      </p>
+                    </div>
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                      <img
+                        src="assets/img/słupek-grafika.png"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Specials Section -->
+
+      <!-- ======= Book A Table Section ======= -->
+      <!-- <section id="book-a-table" class="book-a-table section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -421,281 +620,462 @@
     </section>
     End Book A Table Section -->
 
-    <!-- ======= Gallery Section ======= -->
-    <section id="gallery" class="gallery">
-
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Gallery</h2>
-          <p>Some photos from Our Restaurant</p>
-        </div>
-      </div>
-
-      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row g-0">
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
+      <!-- ======= Gallery Section ======= -->
+      <section id="gallery" class="gallery">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Gallery</h2>
+            <p>Some photos from Our Restaurant</p>
           </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-5.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-6.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-7.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-8.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
         </div>
 
-      </div>
-    </section><!-- End Gallery Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Kontakt</h2>
-          <p>Złóż zamówienie lub zadaj nam pytanie</p>
-        </div>
-      </div>
-
-      <div class="container" data-aos="fade-up">
-
-        <div class="row mt-5">
-
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-info"></i>
-                <h4>Zamówienie</h4>
-                <p>Wypełnij formularz z zamówieniem a my skontaktujemy się z tobą</p>
+        <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+          <div class="row g-0">
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-1.jpg"
+                  class="gallery-lightbox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-1.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
               </div>
-
-              <div class="open-hours">
-                <i class="bi bi-send-plus"></i>
-                <h4>Projekt zamówienia</h4>
-                <p>
-                  Podczas tworzenia projektu, poprosimy o przesłanie niezbędnych plików np. grafiki logo
-                </p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Telefon</h4>
-                <p>+1 5589 55488 55s</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-question"></i>
-                <h4>Masz pytanie?</h4>
-                <p>Skontaktuj się z nami!</p>
-              </div>
-
             </div>
 
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-2.jpg"
+                  class="gallery-lightbox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-2.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-3.jpg"
+                  class="gallery-lightbox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-3.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-4.jpg"
+                  class="gallery-lightbox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-4.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-5.jpg"
+                  class="gallery-lightbox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-5.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-6.jpg"
+                  class="gallery-lightbox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-6.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-7.jpg"
+                  class="gallery-lightbox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-7.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a
+                  href="assets/img/gallery/gallery-8.jpg"
+                  class="gallery-lightbox"
+                  data-gall="gallery-item"
+                >
+                  <img
+                    src="assets/img/gallery/gallery-8.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
+        </div>
+      </section>
+      <!-- End Gallery Section -->
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Kontakt</h2>
+            <p>Złóż zamówienie lub zadaj nam pytanie</p>
+          </div>
+        </div>
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-4 form-group mt-3 mt-md-0">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Imie" required>
+        <div class="container" data-aos="fade-up">
+          <div class="row mt-5">
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-info"></i>
+                  <h4>Zamówienie</h4>
+                  <p>
+                    Wypełnij formularz z zamówieniem a my skontaktujemy się z
+                    tobą
+                  </p>
                 </div>
-                <div class="col-md-4 form-group mt-3 mt-md-0">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Nazwisko" required>
+
+                <div class="open-hours">
+                  <i class="bi bi-send-plus"></i>
+                  <h4>Projekt zamówienia</h4>
+                  <p>
+                    Podczas tworzenia projektu, poprosimy o przesłanie
+                    niezbędnych plików np. grafiki logo
+                  </p>
                 </div>
-                <div class="col-md-4 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>info@example.com</p>
+                </div>
+
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Telefon</h4>
+                  <p>+1 5589 55488 55s</p>
+                </div>
+
+                <div class="phone">
+                  <i class="bi bi-question"></i>
+                  <h4>Masz pytanie?</h4>
+                  <p>Skontaktuj się z nami!</p>
                 </div>
               </div>
-              <div class="row mt-3">
-                <div class="col-md-4 form-group mt-3 mt-md-0">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Ulica i numer" required>
+            </div>
+
+            <div class="col-lg-8 mt-5 mt-lg-0">
+              <form
+                action="forms/contact.php"
+                method="post"
+                role="form"
+                class="php-email-form"
+              >
+                <div class="row">
+                  <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      placeholder="Imie"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      placeholder="Nazwisko"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
                 </div>
-                <div class="col-md-4 form-group mt-3 mt-md-0">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Kod pocztowy" required>
+                <div class="row mt-3">
+                  <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      placeholder="Ulica i numer"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      placeholder="Kod pocztowy"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Miejscowość"
+                      required
+                    />
+                  </div>
                 </div>
-                <div class="col-md-4 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Miejscowość" required>
+                <div class="row mt-3">
+                  <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      placeholder="Nr telefonu"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      placeholder="Firma"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="NIP"
+                      required
+                    />
+                  </div>
                 </div>
-              </div>
-              <div class="row mt-3">
-                <div class="col-md-4 form-group mt-3 mt-md-0">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Nr telefonu" required>
-                </div>
-                <div class="col-md-4 form-group mt-3 mt-md-0">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Firma" required>
-                </div>
-                <div class="col-md-4 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="NIP" required>
-                </div>
-              </div>
-              <div class="row mt-3">
-                <div class=" form-group col-md-6">
-                  <select class="form-control" name="supek" id="supek" >
-                      <option selected="true" disabled  id="supek-0">Rodzaj słupków</option>
+                <div class="row mt-3">
+                  <div class="form-group col-md-6">
+                    <select class="form-control" name="supek" id="supek">
+                      <option selected="true" disabled id="supek-0">
+                        Rodzaj słupków
+                      </option>
                       <option id="supek-1">Słupki z wymienną tabliczką</option>
-                      <option id="supek-2">Słupki z 2 wymiennymi tabliczkami</option>
+                      <option id="supek-2">
+                        Słupki z 2 wymiennymi tabliczkami
+                      </option>
                       <option id="supek-3">Słupki z numerem</option>
-                      <option id="supek-4">Słupki z numerem i napisem/logo</option>
+                      <option id="supek-4">
+                        Słupki z numerem i napisem/logo
+                      </option>
                       <option id="supek-5">Słupki z grafiką na tablicy</option>
-                  </select>
-              </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="number" class="form-control" name="email" id="email" placeholder="Ilość" required>
+                    </select>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input
+                      type="number"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Ilość"
+                      required
+                    />
+                  </div>
                 </div>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="8" placeholder="Napisz co ma się znajdować nasłupkach (logo, napis, numeracja od do, itp.)" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Składam Zamówienie</button></div>
-            </form>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-6 col-md-12 text-center">
-            <div class="footer-info">
-              <h3>Restaurantly</h3>
-              <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
-              </p>
-              <div class="social-links mt-3 text-center">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
+                <div class="form-group mt-3">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="8"
+                    placeholder="Napisz co ma się znajdować nasłupkach (logo, napis, numeracja od do, itp.)"
+                    required
+                  ></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit" onclick="sendEmail()">Składam Zamówienie</button>
+                </div>
+              </form>
             </div>
           </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
 
-          <div class="col-lg-2 col-md-5"></div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 text-center">
+              <div class="footer-info">
+                <h3>Restaurantly</h3>
+                <p>
+                  A108 Adam Street <br />
+                  NY 535022, USA<br /><br />
+                  <strong>Phone:</strong> +1 5589 55488 55<br />
+                  <strong>Email:</strong> info@example.com<br />
+                </p>
+                <div class="social-links mt-3 text-center">
+                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="#" class="facebook"
+                    ><i class="bx bxl-facebook"></i
+                  ></a>
+                  <a href="#" class="instagram"
+                    ><i class="bx bxl-instagram"></i
+                  ></a>
+                  <a href="#" class="google-plus"
+                    ><i class="bx bxl-skype"></i
+                  ></a>
+                  <a href="#" class="linkedin"
+                    ><i class="bx bxl-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
 
-          <div class="col-lg-4 col-md-7 footer-links center-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
+            <div class="col-lg-2 col-md-5"></div>
+
+            <div class="col-lg-4 col-md-7 footer-links center-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Web Design</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Web Development</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Product Management</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Marketing</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Graphic Design</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Restaurantly</span></strong>. All Rights Reserved
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Restaurantly</span></strong
+          >. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/restaurantly-restaurant-template/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
       </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/restaurantly-restaurant-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+    </footer>
+    <!-- End Footer -->
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
 
-</body>
+   
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
-</html>
+
+<!--
+oznaczenia@parkingowe.pl
+0D4EE374EF663934376924C5E8E2305B6225
+smtp.elasticemail.com
+
+6a147480-9793-4ed2-8d02-afefc49ba0e4 
+-->
